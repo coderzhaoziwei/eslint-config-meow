@@ -35,7 +35,7 @@ You can config in `package.json`.
 
 If you are using VS Code, config auto fix in `.vscode/settings.json`.
 
-```json
+```jsonc
 {
   "prettier.enable": false,
   "editor.codeActionsOnSave": {
