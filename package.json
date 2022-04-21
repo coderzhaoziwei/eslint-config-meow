@@ -2,25 +2,26 @@
   "name": "eslint-config-meow",
   "version": "0.0.1",
   "description": "WIP",
+  "keywords": ["eslint", "eslint-config"],
+  "license": "MIT",
+  "author": "Coder Zhao",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderzhaoziwei/eslint-config-meow.git"
+  },
+  "homepage": "https://github.com/coderzhaoziwei/eslint-config-meow#readme",
+  "bugs": {
+    "url": "https://github.com/coderzhaoziwei/eslint-config-meow/issues"
+  },
+  "files": ["source"],
   "main": "source/index.js",
   "scripts": {
     "lint": "eslint .",
     "release": "bump package.json --commit 'chore: release v' --tag 'v' --push"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coderzhaoziwei/eslint-config-meow.git"
+  "dependencies": {
+    "eslint-plugin-jsonc": "^2.2.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/coderzhaoziwei/eslint-config-meow/issues"
-  },
-  "homepage": "https://github.com/coderzhaoziwei/eslint-config-meow#readme",
-  "files": [
-    "source"
-  ],
   "devDependencies": {
     "@jsdevtools/version-bump-prompt": "^6.1.0",
     "eslint": "^8.13.0"
@@ -30,8 +31,5 @@
   },
   "eslintConfig": {
     "extends": "./source/index.js"
-  },
-  "dependencies": {
-    "eslint-plugin-jsonc": "^2.2.1"
   }
 }

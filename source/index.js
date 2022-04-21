@@ -14,6 +14,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     './json.js',
+    './package.json.js',
   ],
   rules: {
     // 缩进风格（默认 2 个空格）
