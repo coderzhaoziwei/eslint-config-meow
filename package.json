@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-meow",
+  "version": "0.0.0",
+  "description": "WIP",
+  "main": "source/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bump package.json --commit 'chore: release v' --tag 'v' --push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderzhaoziwei/eslint-config-meow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderzhaoziwei/eslint-config-meow/issues"
+  },
+  "homepage": "https://github.com/coderzhaoziwei/eslint-config-meow#readme",
+  "files": [
+    "source"
+  ],
+  "devDependencies": {
+    "@jsdevtools/version-bump-prompt": "^6.1.0",
+    "eslint": "^8.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.13.0"
+  },
+  "eslintConfig": {
+    "extends": "./source/index.js"
+  },
+  "dependencies": {
+    "eslint-plugin-jsonc": "^2.2.1"
+  }
+}
