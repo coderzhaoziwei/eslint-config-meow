@@ -1,8 +1,13 @@
 # eslint-config-meow
 
-WIP
+<a href="https://www.npmjs.com/package/eslint-config-meow">
+  <img src="https://img.shields.io/npm/v/eslint-config-meow">
+</a>
+<a href="https://www.npmjs.com/package/eslint-config-meow">
+  <img src="https://img.shields.io/npm/dt/eslint-config-meow">
+</a>
 
-no semi, single quotes.
+[![](https://img.shields.io/npm/l/eslint-config-meow)](https://github.com/coderzhaoziwei/eslint-config-meow/blob/main/LICENSE)
 
 ## Installation
 
@@ -59,6 +64,7 @@ If you are using VS Code, config auto fix in `.vscode/settings.json`.
 
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
 
 ## License
 

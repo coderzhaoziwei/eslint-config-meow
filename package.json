@@ -25,7 +25,12 @@
     "release": "bump package.json --commit 'chore: release v' --tag 'v' --push"
   },
   "dependencies": {
-    "eslint-plugin-jsonc": "^2.2.1"
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.6.3"
   },
   "devDependencies": {
     "@jsdevtools/version-bump-prompt": "^6.1.0",

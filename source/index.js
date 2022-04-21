@@ -13,6 +13,9 @@ module.exports = {
   plugins: [],
   extends: [
     'eslint:recommended',
+    './import.js',
+    './promise.js',
+    './node.js',
     './json.js',
     './package.json.js',
   ],
@@ -295,7 +298,6 @@ module.exports = {
 
     'symbol-description': 'error', // 要求 symbol 描述 ()
     'template-curly-spacing': ['error', 'always'], // [--fix] 模板字符串中大括号内前后空格
-
 
   },
   ignorePatterns: [
