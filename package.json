@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-meow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WIP",
-  "keywords": ["eslint", "eslint-config"],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "license": "MIT",
   "author": "Coder Zhao",
   "repository": {
@@ -13,7 +16,9 @@
   "bugs": {
     "url": "https://github.com/coderzhaoziwei/eslint-config-meow/issues"
   },
-  "files": ["source"],
+  "files": [
+    "source"
+  ],
   "main": "source/index.js",
   "scripts": {
     "lint": "eslint .",
