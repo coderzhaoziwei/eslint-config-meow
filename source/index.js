@@ -1,4 +1,4 @@
-const INDENT_VALUE = 2 // indent
+const INDENT_VALUE = 2
 
 module.exports = {
   env: {
